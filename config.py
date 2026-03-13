@@ -34,7 +34,7 @@ EMBEDDING_DIM = 2048
 
 # 多模态交互模型
 MLLM_ENDPOINT = "http://127.0.0.1:32807/v1"
-MLLM_MODEL_NAME = "/models/Qwen3-VL-8B-Instruct"
+MLLM_MODEL_NAME = "/models/Qwen3-VL-32B-Instruct"
 MLLM_API_KEY = os.getenv("MLLM_API_KEY", "EMPTY")
 MLLM_TEMPERATURE = 0.3
 MLLM_MESSAGE_CONVERT = True  # 访问外部多模态模型时，需要转换消息格式，因为图片服务是本地部署的，外部无法访问
